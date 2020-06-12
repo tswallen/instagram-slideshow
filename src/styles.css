@@ -1,0 +1,14 @@
+.dse-quick-actions {
+    position: fixed;
+    z-index: 999;
+    margin: 1em;
+    padding: 1em;
+    right: 0px;
+    background: rgba(0,0,0,.5);
+    display: flex;
+    flex-direction: column;
+}
+
+.dse-quick-actions > button:not(:last-of-type) {
+    margin: 0em 0em .5em 0em;
+};
